@@ -1,0 +1,7 @@
+resilience4j.circuitbreaker.configs:
+  myCircuitBreaker:
+    failureRateThreshold: 50
+    waitDurationInOpenState: 10000
+spring:
+  application:
+    name: circuitbreaker
